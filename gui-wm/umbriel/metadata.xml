@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">
+    Umbriel is a Wayland compositor built on wlroots, with scrolling, dwindle,
+    master, and stacking layouts, per-output workspaces, window rules, blur,
+    shadows, and fluid animations.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">noctalia-dev/umbriel</remote-id>
+  </upstream>
+  <use>
+    <flag name="jemalloc">Use jemalloc for the compositor heap on glibc systems.</flag>
+    <flag name="lcms">Enable Little CMS support for client ICC profiles.</flag>
+    <flag name="systemd">Enable the systemd-localed keymap integration.</flag>
+    <flag name="xwayland">Install Xwayland for X11 application support.</flag>
+  </use>
+</pkgmetadata>

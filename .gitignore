@@ -1,0 +1,11 @@
+# Portage and ebuild tooling caches
+*.log
+*.swp
+*~
+.cache/
+
+# Local editor and operating-system files
+.direnv/
+.idea/
+.vscode/
+.DS_Store
