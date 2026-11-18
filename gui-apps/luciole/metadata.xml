@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>dev@ppixiu.com</email>
+    <name>ppixiu</name>
+  </maintainer>
+  <longdescription lang="en">
+    Luciole is a native Wayland file manager using C++23 and OpenGL ES.
+    It provides grid, list and Miller column views, tabs, split views,
+    asynchronous file previews, archive handling, GVfs integration and
+    a FileChooser backend for xdg-desktop-portal, without Qt or GTK widgets.
+  </longdescription>
+  <upstream>
+    <remote-id type="github">noctalia-dev/luciole</remote-id>
+  </upstream>
+  <use>
+    <flag name="7zip">Install 7-Zip for reading encrypted 7z archives.</flag>
+    <flag name="http">Enable WebDAV access through GVfs with GIO TLS support.</flag>
+    <flag name="pdf">Install Poppler utilities for PDF previews and metadata.</flag>
+    <flag name="samba">Enable SMB access through the GVfs Samba backend.</flag>
+    <flag name="sftp">Enable SFTP access through GVfs.</flag>
+    <flag name="video">Install FFmpeg and ffmpegthumbnailer for media previews and metadata.</flag>
+    <flag name="zeroconf">Enable DNS-SD network discovery through GVfs and Avahi.</flag>
+  </use>
+</pkgmetadata>
