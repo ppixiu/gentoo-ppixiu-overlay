@@ -25,7 +25,7 @@ Create `/etc/portage/repos.conf/gentoo-ppixiu.conf` with:
 
 ```ini
 [gentoo-ppixiu]
-location = /home/ppixiu/WorkDir/Codes/gentoo-ppixiu
+location = /home/user/overlays/gentoo-ppixiu
 ```
 
 Add a numeric `priority` if this overlay must override packages from another
